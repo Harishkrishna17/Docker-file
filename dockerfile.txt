@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Seshagiri Sriram <seshagirisriram@gmail.com>
+MAINTAINER Harish 
 
 RUN addgroup jenkins_demo && adduser --home /home/jenkins_demo \
     --shell /bin/bash --ingroup jenkins_demo --disabled-password \
